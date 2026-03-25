@@ -1,0 +1,11 @@
+{
+  "network": {
+    "max_retries": 3,
+    "max_retries_limit": 10,
+    "base_delay_seconds": 1.0,
+    "timeout_seconds": 10
+  },
+  "data_sources": {
+    "amfi_nav_url": "https://www.amfiindia.com/spages/NAVAll.txt"
+  }
+}

@@ -1,4 +1,27 @@
 {
-  "name": "Sample Flexi Cap",
-  "amount": "₹5,000"
+  "portfolio_name": "Sample Flexi Cap Portfolio",
+  "currency": "INR",
+  "total_value": 50000,
+  "holdings": [
+    {
+      "symbol": "NIFTY50",
+      "name": "NIFTY 50 Index Fund",
+      "quantity": 10,
+      "avg_price": 2500,
+      "current_price": 2600,
+      "value": 26000,
+      "allocation_pct": 52
+    },
+    {
+      "symbol": "RELIANCE",
+      "name": "Reliance Industries",
+      "quantity": 5,
+      "avg_price": 2400,
+      "current_price": 2500,
+      "value": 12500,
+      "allocation_pct": 25
+    }
+  ],
+  "created_at": "2025-01-01",
+  "last_updated": "2025-03-26"
 }
