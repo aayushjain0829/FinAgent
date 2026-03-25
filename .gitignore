@@ -1,0 +1,40 @@
+# --- AI & Agent Specific ---
+# Hide environment variables (API Keys, etc.)
+.env
+.env.local
+.env.*
+
+# Hide LangGraph / LangChain data & traces
+.langgraph-data/
+.langchain/
+langchain.log
+
+# Hide large Windsurf/IDE index files to save CPU/Quota
+.windsurf/
+.codeium/
+.vscode/
+.idea/
+*.swp
+
+# --- Financial Data Protection ---
+# Never commit your actual portfolio or secrets
+data/portfolio.json
+data/secrets.json
+data/*.csv
+data/*.xlsx
+!data/portfolio_template.json
+
+# --- Python Standard ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
